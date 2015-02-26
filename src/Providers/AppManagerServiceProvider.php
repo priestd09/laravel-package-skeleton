@@ -26,7 +26,7 @@ class AppManagerServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            realpath(__DIR__ . '/../../config/appmanager.php'), config_path()
+            realpath(__DIR__ . '/../../config/appmanager.php'), config_path('appmanager.php')
         ]);
     }
 
@@ -37,8 +37,6 @@ class AppManagerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
-
         $this->app->singleton('manage.source', function ($app) {
             return new SourceManager();
         });
