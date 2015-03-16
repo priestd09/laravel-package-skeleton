@@ -1,31 +1,23 @@
 {
-    "name": "digital-baker/app-manager",
-    "description": "App manager helps you to keep track of your application.",
+    "name": "vendor-name/package-name",
+    "description": "A common laravel 5 skeleton",
     "license": "MIT",
     "type": "package",
     "authors": [
         {
-            "name": "mbunge",
-            "email": "marco.bunge@web.de"
+            "name": "your name",
+            "email": "your.em@il.io"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "illuminate/console": "~5.0",
-        "illuminate/contracts": "~5.0",
-        "illuminate/foundation": "~5.0",
         "illuminate/support": "~5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
     "autoload": {
-        "psr-4": {"DigitalBaker\\AppManager\\": "src/"}
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "dev-dev"
-        }
+        "psr-4": {"VendorName\\PackageName\\": "src/"}
     }
 }
