@@ -12,6 +12,6 @@
  */
 
  $loader = require __DIR__ . "/../vendor/autoload.php";
- $loader->addPsr4('DigitalBaker\\AppManager\\Tests', __DIR__.'/AppManager');
+ $loader->addPsr4('VendorName\\PackageName\\Tests', __DIR__.'/PackageName');
 
  date_default_timezone_set('UTC');
